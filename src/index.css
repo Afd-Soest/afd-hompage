@@ -6,6 +6,7 @@
     --menuToggle-color: #fff;
     --background-color: #fff;
     --background-sec-color: #cfc9c9;
+    --min-height: 100vh;
     --color-gradient: -webkit-linear-gradient(var(--sec-color), var(--main-color));
 }
 

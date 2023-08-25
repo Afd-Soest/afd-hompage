@@ -1,7 +1,7 @@
 #vorstand {
     position: relative;
     background: #fff;
-    min-height: 120vh;
+    min-height: var(--min-height);
 }
 
 #vorstand .banner{
