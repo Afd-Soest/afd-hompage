@@ -1,0 +1,43 @@
+#dontation {
+    position: flex;
+    width: 40%;
+    background: #fff;
+    padding-bottom: 20px;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p, h2, h3, #dontation .end {
+    font-family: 'Bitter', serif;
+}
+
+#dontation h2{
+    font-size: 2.5em;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#dontation .content{
+    padding-top: 40px;
+    font-size: 1.3em;
+}
+
+#dontation .content p{
+    padding-top: 15px;
+}
+
+#dontation h3{
+    font-size: 1.7em;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#dontation .bank p{
+    font-size: 1.3em;
+}
+
+#dontation .end{
+    padding-top: 30px;
+    font-size: 1.6em;
+}

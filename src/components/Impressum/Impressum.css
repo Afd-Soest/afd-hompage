@@ -1,0 +1,38 @@
+#impressum {
+    position: relative;
+    width: 40%;
+    background: #fff;
+    padding: 0;
+    padding-bottom: 60px;
+    align-content: center;
+    margin-left: auto;   
+    margin-right: auto;
+}
+
+p, h2, a, li {
+    font-family: 'Bitter', serif;
+}
+
+#impressum h2{
+    font-size: 2.2em;
+    text-align: left;
+    padding-top: 25px;
+    padding-bottom: 3px;
+}
+#impressum li {
+    font-size: 1.3em;
+}
+
+#impressum p{
+    padding-top: 15px;
+    font-size: 1.3em;
+}
+
+#impressum a{
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+#impressum a:hover{
+    color: var(--sec-color); 
+}

@@ -1,0 +1,7 @@
+.divider{
+    position: relative;
+    display: flex;
+    width: 100%;
+    background: linear-gradient(to right, black, red, yellow);
+    height: 35px;
+}

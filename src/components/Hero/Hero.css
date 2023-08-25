@@ -1,0 +1,137 @@
+#hero {
+    position: relative;
+    width: 100%;
+    background: #fff;
+    display: grid;
+    max-height: 80vh;
+}
+
+#hero > * {
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+#hero .background {
+    position: relative;
+    /* height: 80vh; */
+    width: 100%;
+    max-height: 75vh;
+    object-fit: cover;
+    object-position: 100% 70%; 
+}
+
+#hero .text {
+    position: relative;
+    padding-left: 40px;
+    color: #000;
+}
+
+
+#hero .text .title{
+    position: relative;
+    top: 75%;
+    font-size: 3rem;
+    width: max-content;
+    color: #fff;
+    font-weight: 4px;
+}
+
+#hero .text .secTitle{
+    position: relative;
+    top: 77%;
+    z-index: 1000;
+    font-size: 2rem;
+    width: max-content;
+    color: #fff;
+}
+
+#hero .contact {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 30px;
+    padding: 25px;
+    top: 31%;
+    width: 450px;
+    left: 75%;
+    gap: 10px;
+    background: #fff;
+    opacity: 80%;
+}
+
+#hero .contact:hover {
+    top: -10%;
+}
+
+#hero .contact .first,
+#hero .contact .secound{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#hero .contact .secound{
+    display: none;
+}
+
+#hero .contact:hover .secound{
+    display: flex;
+    transition: 5s;
+}
+
+#hero .contact h2{
+    font-size: 1.7em;
+}
+#hero .contact .names{
+    font-size: 1.3em;
+}
+
+#hero .contact input,
+#hero .contact textarea{
+    width: 400px;
+    font-size: 1.3em;
+}
+
+#hero .contact input {
+    height: 40px;
+}
+
+#hero .contact input:hover,
+#hero .contact input:focus,
+#hero .contact textarea:hover,
+#hero .contact textarea:focus{
+    background: #8fe2fc;
+    border: 3px solid #000000;
+}
+
+#hero .contact textarea{
+    height: 200px;
+}
+
+@media (max-width: 1700px)
+{
+    #hero .contact {
+        display: none;
+    }
+}
+
+
+@media (max-width: 1300px)
+{
+    #hero .text .title{
+        font-size: 2rem;
+    }
+    
+    #hero .text .secTitle{
+        font-size: 1rem;
+    }
+    
+}
+
+@media (max-width: 900px)
+{
+    #hero .text > * {
+        display: none;
+    }
+}
