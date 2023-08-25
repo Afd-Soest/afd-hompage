@@ -109,6 +109,17 @@
     height: 200px;
 }
 
+@media (min-width: 2400px)
+{
+    #hero .contact {
+        top: 30%;
+    }
+
+    #hero .contact:hover {
+        top: 0%;
+    }
+}
+
 @media (max-width: 1700px)
 {
     #hero .contact {

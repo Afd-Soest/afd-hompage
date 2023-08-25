@@ -2,7 +2,7 @@
     position: relative;
     width: 100%;
     background: #fff;
-    min-height: 78vh;
+    min-height: var(--min-height);
     display: flex;
     justify-content: space-evenly;
     align-items: flex-start;
