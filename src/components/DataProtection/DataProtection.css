@@ -8,7 +8,6 @@
     margin-left: auto;
     margin-right: auto;   
     min-height: var(--min-height);
-    padding-top: var(--nav-padding-top);
 }
 
 p, h2, a, li {
