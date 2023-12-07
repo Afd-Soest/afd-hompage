@@ -87,3 +87,30 @@
 #contact .email textarea{
     height: 200px;
 }
+
+@media (max-width: 1000px) {
+    #contact {
+        flex-wrap: wrap;
+        
+    }
+}
+
+@media (max-width: 600px) {
+    #contact .email input,
+    #contact .email textarea{
+        width: 200px;
+    }
+
+    #contact .email{
+        padding-left: 20px;
+    }
+
+    #contact .media h2 {
+        font-size: 2em;
+        padding-left: 20px;
+    }
+
+    #contact .media ul li {
+        font-size: 1em;
+    }
+}

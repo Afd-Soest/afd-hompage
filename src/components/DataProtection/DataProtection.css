@@ -3,24 +3,23 @@
     width: 40%;
     background: #fff;
     padding: 0;
-    padding-bottom: 60px;
+    padding-bottom: 20px;
     align-content: center;
     margin-left: auto;
     margin-right: auto;   
     min-height: var(--min-height);
-}
-#data div {
     padding-top: var(--nav-padding-top);
 }
 
 p, h2, a, li {
     font-family: 'Bitter', serif;
 }
-
+#data div {
+    padding-bottom: 40px;
+}
 #data h2{
     font-size: 2.2em;
     text-align: left;
-    padding-top: 25px;
     padding-bottom: 3px;
 }
 #data li {
@@ -30,7 +29,7 @@ p, h2, a, li {
 }
 
 #data p{
-    padding-top: 15px;
+    padding-top: 10px;
     font-size: 1.3em;
 }
 

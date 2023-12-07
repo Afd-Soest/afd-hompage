@@ -11,13 +11,25 @@
     padding-top: var(--nav-padding-top);
 }
 
-#constituion .links {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 80px;
+/* #constituion .links {
+    display: flex;
+    grid-gap: 100px 120px;
+} */
+
+#constituion .links .bund,
+#constituion .links .bezirk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#constituion .links div h2 {
+    font-size: 2.5em;
+    color: var(--sec-color);
+    padding-bottom: 10px;
 }
 
-#constituion .links .headerBx {
+#constituion .links div .headerBx {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -27,7 +39,7 @@
     height: max-content;
 }
 
-#constituion .links a .headerBx .img {
+#constituion .links div a .headerBx .img {
     width: 70px;
     height: 70px;
     filter:hue-rotate(147deg) contrast(1.8);
@@ -35,22 +47,22 @@
 }
 
 
-#constituion .links a .headerBx:hover .img {
+#constituion .links div a .headerBx:hover .img {
     filter:hue-rotate(0deg) contrast(1.8);
     
 }
 
-#constituion .links a .headerBx .title {
+#constituion .links div a .headerBx .title {
     font-size: 1.3em;
     transition: 0.4s;
 }
 
-#constituion .links a {
+#constituion .links div a {
     text-decoration: none;
     color: black;
 }
 
-#constituion .links a .headerBx:hover .title {
+#constituion .links div a .headerBx:hover .title {
     color: var(--main-color);
     
 }

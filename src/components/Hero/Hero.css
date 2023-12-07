@@ -4,6 +4,8 @@
     background: #fff;
     display: grid;
     max-height: 80vh;
+    top: 0px;
+    /* padding-top: var(--nav-padding-top); */
 }
 
 #hero > * {

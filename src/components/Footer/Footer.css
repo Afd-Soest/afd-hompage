@@ -4,6 +4,7 @@
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    height: var(--footer-size);
 }
 
 #footer .social {
@@ -101,4 +102,21 @@
         font-size: 0.8em;
     }
     
+}
+
+@media (max-height: 1000px) {
+    #footer .social li a img{
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media (max-height: 900px) {
+    #footer .social li a img{
+        width: 40px;
+        height: 40px;
+    }
+    #footer {
+        height: 150px;
+    }
 }
