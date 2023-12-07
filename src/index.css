@@ -6,7 +6,9 @@
     --menuToggle-color: #fff;
     --background-color: #fff;
     --background-sec-color: #cfc9c9;
-    --min-height: 100vh;
+    --min-height: 80vh;
+    --nav-size: 10vh;
+    --nav-padding-top: 5vh;
     --color-gradient: -webkit-linear-gradient(var(--sec-color), var(--main-color));
 }
 

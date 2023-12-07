@@ -8,12 +8,13 @@
     align-items: flex-start;
 }
 
-#contact .media h2 {
-    font-size: 2.5em;
+#contact .media {
+    padding-top: var(--nav-padding-top);
 }
 
-#contact .media {
-    padding-top: 40px;
+#contact .media h2 {
+    font-size: 2.5em;
+    padding-top: 10px;
 }
 
 #contact .media ul {
@@ -50,7 +51,7 @@
 }
 
 #contact .email {
-    padding-top: 40px;
+    padding-top: 60px;
 }
 
 #contact .email h2{

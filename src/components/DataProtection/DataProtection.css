@@ -9,6 +9,9 @@
     margin-right: auto;   
     min-height: var(--min-height);
 }
+#data div {
+    padding-top: var(--nav-padding-top);
+}
 
 p, h2, a, li {
     font-family: 'Bitter', serif;

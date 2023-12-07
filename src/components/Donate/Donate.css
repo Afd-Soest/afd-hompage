@@ -16,7 +16,7 @@ p, h2, h3, #dontation .end {
 #dontation h2{
     font-size: 2.5em;
     text-align: center;
-    padding-top: 20px;
+    padding-top: var(--nav-padding-top);
 }
 
 #dontation .content{

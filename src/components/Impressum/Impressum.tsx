@@ -3,7 +3,7 @@ import "./Impressum.css";
 const Impressum = () => {
   return (
     <section id="impressum" className="firstSector">
-      <div>
+      <div id="first">
         <h2>Impressum</h2>
         <p>Alternative für Deutschland</p>
         <p>Kreisverband Soest</p>
