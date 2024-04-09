@@ -25,7 +25,7 @@ const Vorstand = () => {
                   ))}
                   <li>
                     <a href={"mailto:".concat(item.getEmail())}>
-                      email: {item.getEmail()}
+                      {item.getEmail()}
                     </a>
                   </li>
                 </ul>
@@ -48,7 +48,7 @@ const Vorstand = () => {
                   ))}
                   <li>
                     <a href={"mailto:".concat(item.getEmail())}>
-                      email: {item.getEmail()}
+                      {item.getEmail()}
                     </a>
                   </li>
                 </ul>

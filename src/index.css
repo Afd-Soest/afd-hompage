@@ -6,6 +6,9 @@
     --menuToggle-color: #fff;
     --background-color: #fff;
     --background-sec-color: #cfc9c9;
+    --min-height: 89vh;
+    --footer-size: 10vh;
+    --nav-size: 10vh;
     --color-gradient: -webkit-linear-gradient(var(--sec-color), var(--main-color));
 }
 
@@ -18,6 +21,9 @@
     font-family: 'Barlow Condensed', serif;
 }
 
+.firstSector {
+    padding-top: var(--nav-size);
+}
 .btn {
     font-family: 'Bitter', serif;
     /* font-family: 'Barlow Condensed', serif; */
@@ -36,9 +42,6 @@
 }
 .btn:hover {
     cursor: pointer;
-}
-.firstSector {
-    margin-top: 75px;
 }
 .gradient-color {
     background: var(--color-gradient);

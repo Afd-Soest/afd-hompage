@@ -2,12 +2,16 @@
     position: relative;
     width: 40%;
     background: #fff;
-    padding: 0;
     padding-bottom: 60px;
     align-content: center;
     margin-left: auto;   
     margin-right: auto;
 }
+
+#impressum div {
+    padding-bottom: 20px;
+}
+
 
 p, h2, a, li {
     font-family: 'Bitter', serif;
@@ -17,14 +21,13 @@ p, h2, a, li {
     font-size: 2.2em;
     text-align: left;
     padding-top: 25px;
-    padding-bottom: 3px;
+    padding-bottom: 15px;
 }
 #impressum li {
     font-size: 1.3em;
 }
 
 #impressum p{
-    padding-top: 15px;
     font-size: 1.3em;
 }
 

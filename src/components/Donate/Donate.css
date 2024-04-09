@@ -2,9 +2,7 @@
     position: flex;
     width: 40%;
     background: #fff;
-    padding-bottom: 20px;
     min-height: var(--min-height);
-    align-content: center;
     margin-left: auto;
     margin-right: auto;
 }
@@ -14,9 +12,9 @@ p, h2, h3, #dontation .end {
 }
 
 #dontation h2{
+    padding-top: 20px;
     font-size: 2.5em;
     text-align: center;
-    padding-top: 20px;
 }
 
 #dontation .content{
@@ -40,5 +38,6 @@ p, h2, h3, #dontation .end {
 
 #dontation .end{
     padding-top: 30px;
+    padding-bottom: 30px;
     font-size: 1.6em;
 }

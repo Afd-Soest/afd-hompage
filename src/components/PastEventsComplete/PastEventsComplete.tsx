@@ -10,7 +10,7 @@ const PastEventsComplete = () => {
   console.log(index);
   const event = events[index];
   return (
-    <section id="pastEventComplete">
+    <section id="pastEventComplete" className="firstSector">
       <img src={event.getPicture()} />
       <div className="text">
         <h3 className="date">{event.getDate()}</h3>

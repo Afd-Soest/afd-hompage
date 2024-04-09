@@ -9,7 +9,7 @@ import { Event } from "./Event";
 export let events: Event[] = [];
 
 events.push(
-  new Event(Picture1, "31 März,  2023", "Infoabend mit Guido Reil", [
+  new Event(Picture1, "31. März 2023", "Infoabend mit Guido Reil", [
     "Am letzten Märztag besuchte Guido Reil Soest. Als Abgeordneter des Europäischen Parlamentes berichte er über seine Arbeit in Brüssel. Reil zeigte auch auf welch Absurditäten mittlerweile zur Normalität in der EU gehören und welche sinnfreien Prozesse unser Steuergeld verbrennen. Reil machte sehr deutlich, dass die EU in der jetzigen Form abgeschafft werden muss.",
   ])
 );
@@ -17,7 +17,7 @@ events.push(
 events.push(
   new Event(
     Picture2,
-    "15 Oktober, 2022",
+    "15. Oktober 2022",
     "Die Junge Alternative wählt einen neuen Bundesvorstand",
     [
       "Am 15. Oktober fand im thüringischen Apolda der elfte Bundeskongress der Jungen Alternative statt.",
@@ -29,7 +29,7 @@ events.push(
   )
 );
 events.push(
-  new Event(Picture3, "23 Oktober, 2022", "Infostand in Soest", [
+  new Event(Picture3, "23. Oktober 2022", "Infostand in Soest", [
     "Am 23. Oktober besuchten wir mit unseren neuen Flyern den Soester Marktplatz mit einem Infostand, um über unser Programm gegen die Preissteigerungen zu informieren.",
     "Hier führten wir einige interessante Gespräche und auch wenn das allgemeine Interesse noch gering ausfiel, bleiben als Fazit des Ganzen zwei wesentliche Dinge festzuhalten:",
     "Die Hemmschwelle gegenüber unserer AfD sinkt weiter.",
@@ -38,7 +38,7 @@ events.push(
   ])
 );
 events.push(
-  new Event(Picture4, "31 November, 2022", "Kundgebung in Lippstadt", [
+  new Event(Picture4, "31. November 2022", "Kundgebung in Lippstadt", [
     "Mit einer Kundgebung auf dem Lippstädter Rathausplatz schlossen wir diesen Monat ab.",
     "Unsere Themenschwerpunkte waren auch hier unsere Lösungen für bezahlbare Energie und zur Eindämmung der Inflation. Nach der Eröffnung der Kundgebung, durch unseren Kreissprecher Matthias Höing, folgte ein guter Mix an Rednern aus unserem Kreisverband. Als Gastredner waren Günter Koch (Kreissprecher Paderborn) und unser Abgeordneter im Landtag Dr. Christian Blex vor Ort.",
     "Gut 40 Interessenten und Parteifreunde folgten den verschiedenen Redebeiträgen. Besonders gefreut haben uns natürlich auch die Gegendemonstranten, die unsere Kundgebung verfolgt haben. Denn grade unseren roten Freunden, bringen wir gerne vernunftbasierte Politik nahe.",
