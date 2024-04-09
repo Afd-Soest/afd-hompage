@@ -2,15 +2,10 @@
     position: relative;
     width: 40%;
     background: #fff;
-    padding: 0;
     padding-bottom: 60px;
     align-content: center;
     margin-left: auto;   
     margin-right: auto;
-}
-
-#impressum #first{
-    padding-top: var(--nav-padding-top);
 }
 
 #impressum div {

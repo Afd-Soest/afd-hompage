@@ -7,9 +7,8 @@
     justify-content: space-evenly;
     align-items: flex-start;
 }
-
 #contact .media {
-    padding-top: var(--nav-padding-top);
+    padding-top: 40px;
 }
 
 #contact .media h2 {
@@ -50,7 +49,7 @@
     color: var(--sec-color);
 }
 
-#contact .email {
+#contact .email{
     padding-top: 60px;
 }
 

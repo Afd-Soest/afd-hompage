@@ -2,7 +2,6 @@
     position: relative;
     width: 40%;
     background: #fff;
-    padding: 0;
     padding-bottom: 20px;
     align-content: center;
     margin-left: auto;
@@ -14,12 +13,13 @@ p, h2, a, li {
     font-family: 'Bitter', serif;
 }
 #data div {
-    padding-bottom: 40px;
+    padding-bottom: 30px;
 }
 #data h2{
     font-size: 2.2em;
     text-align: left;
     padding-bottom: 3px;
+    padding-top: 10px;
 }
 #data li {
     font-size: 1.3em;

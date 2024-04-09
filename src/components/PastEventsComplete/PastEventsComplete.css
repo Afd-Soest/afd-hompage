@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    padding-top: var(--nav-padding-top);
     min-height: var(--min-height);
     gap: 20px;
     align-items: center;

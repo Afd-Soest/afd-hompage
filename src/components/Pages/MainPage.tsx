@@ -13,8 +13,6 @@ const MainPage = () => {
       <Divider />
       <AboutUs />
       <Divider />
-      <PastEvents />
-      <Divider />
     </>
   );
 };
