@@ -39,7 +39,7 @@ const Footer = () => {
         </ul>
         <div className="footer-text">
           <p className="copyright">
-            ©2021-2023 Alternative für Deutschland (AfD) | Kreisverband Soest.
+            ©2021-2024 Alternative für Deutschland (AfD) | Kreisverband Soest.
           </p>
           <div className="footer-menu">
             <ul>

@@ -51,16 +51,12 @@
     justify-content: flex-start;
     border-radius: 30px;
     padding: 25px;
-    top: 31%;
+    top: -9%;
     width: 450px;
     left: 75%;
     gap: 10px;
     background: #fff;
     opacity: 80%;
-}
-
-#hero .contact:hover {
-    top: -10%;
 }
 
 #hero .contact .first,
@@ -71,30 +67,21 @@
     justify-content: flex-start;
 }
 
-#hero .contact .secound{
-    display: none;
-}
-
-#hero .contact:hover .secound{
-    display: flex;
-    transition: 5s;
-}
-
 #hero .contact h2{
-    font-size: 1.7em;
+    font-size: 1.5em;
 }
 #hero .contact .names{
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 #hero .contact input,
 #hero .contact textarea{
     width: 400px;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 #hero .contact input {
-    height: 40px;
+    height: 35px;
 }
 
 #hero .contact input:hover,
@@ -112,10 +99,6 @@
 @media (min-width: 2400px)
 {
     #hero .contact {
-        top: 30%;
-    }
-
-    #hero .contact:hover {
         top: 0%;
     }
 }

@@ -16,6 +16,8 @@ header .logo {
     position: relative;
     width: auto;
     height: 10vh;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 header nav ul {
     position: relative;
@@ -27,6 +29,22 @@ header nav ul li {
     list-style: none;
     position: relative;
     /* float: left; */
+}
+header nav ul li input[type="checkbox"] {
+    display: none;
+}
+
+header nav ul li label {
+    font-family: 'Bitter', serif;
+    color: var(--default-font-color);
+    font-size: 1.7em;
+    padding: 25px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li label:hover {
+    color: var(--sec-color);
 }
 
 header nav ul li a {
@@ -93,6 +111,10 @@ header .btn a{
         padding: 25px 50px;
         font-size: 1.5em;
     }
+    header nav ul li label {
+        padding: 25px 50px;
+        font-size: 1.5em;
+    }
     header nav ul li ul {
         left: 50px;
     }
@@ -102,8 +124,10 @@ header .btn a{
 {    
     header nav ul li a {
         font-size: 1.2em;
+        padding: 25px 20px;
     }
-    header nav ul li a {
+    header nav ul li label {
+        font-size: 1.2em;
         padding: 25px 20px;
     }
     header nav ul li ul {
@@ -155,7 +179,7 @@ header .btn a{
     header nav ul {
         display: none;
     }
-    header.active nav ul {
+    header.active nav .nav {
         position: fixed;
         left: 0;
         top: 84px;
@@ -170,13 +194,46 @@ header .btn a{
         gap: 20px;
     }
 
-    header.active nav ul li ul{
+    header.active .expended_ul{
         display: none;
+    }
+
+    header.active input[type="checkbox"]:checked ~ .expended_ul{
+        background: rgba(50, 50, 50, 0);
+        z-index: 10000;
+        display: block;
+        gap: 30px;
+        position: relative;
     }
 
     header.active ul li a {
         font-size: 2em;
     }
+
+    header.active ul li label {
+        font-size: 2em;
+    }
+
+    header.active .expended_ul li a {
+        font-size: 1.8em;
+    }
+
+    header.active ul li ul li a{
+        padding: 0;
+        width: 100%;
+        justify-content: center;
+    }
+
+    header.active ul li ul li
+    {
+        padding-top: 5px;
+    }
+
+    header nav ul li ul li a:hover {
+        background: rgba(50, 50, 50, 0.2);
+        color: var(--sec-color);
+    }
+
     header .btn a, header .btn {
         display: none;
     }

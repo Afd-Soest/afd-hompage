@@ -20,7 +20,8 @@ const Navigation = () => {
         <nav>
           <ul className="nav">
             <li className={selectedIndex === 0 ? "active" : ""}>
-              <a href="#">
+              <input type="checkbox" id="checkbox_partei"></input>
+              <label htmlFor="checkbox_partei">
                 Partei
                 <div
                   style={{
@@ -32,8 +33,8 @@ const Navigation = () => {
                 >
                   &#9660;
                 </div>
-              </a>
-              <ul>
+              </label>
+              <ul className="expended_ul">
                 <li onClick={() => changeSelectedIndex(100)}>
                   <Link to="/vorstand">Unser Vorstand</Link>
                 </li>
@@ -61,7 +62,8 @@ const Navigation = () => {
               className={selectedIndex === 1 ? "active" : ""}
               onClick={() => changeSelectedIndex(1)}
             >
-              <a href="#">
+              <input type="checkbox" id="checkbox_program"></input>
+              <label htmlFor="checkbox_program">
                 Programm
                 <div
                   style={{
@@ -73,8 +75,8 @@ const Navigation = () => {
                 >
                   &#9660;
                 </div>
-              </a>
-              <ul>
+              </label>
+              <ul className="expended_ul">
                 <li>
                   <a
                     href="https://www.afd.de/grundsatzprogramm/"

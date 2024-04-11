@@ -20,7 +20,9 @@ const DataProtection = () => {
       <div>
         <h2>Verantwortlicher</h2>
         <ul>
-          <li>Matthias Höing / Sprecher AfD Kreisverband Soest</li>
+          <li>
+            Manuel Linnemann / Stellvertretender Sprecher AfD Kreisverband Soest
+          </li>
           <li>Gladbecker Straße 5</li>
           <li>40472 Düsseldorf</li>
           <li>
