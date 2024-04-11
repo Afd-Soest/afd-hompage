@@ -11,6 +11,8 @@ const MainPage = () => {
       <Divider />
       <UpcomingEvents />
       <Divider />
+      <PastEvents />
+      <Divider />
       <AboutUs />
       <Divider />
     </>

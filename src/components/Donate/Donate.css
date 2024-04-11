@@ -5,6 +5,7 @@
     min-height: var(--min-height);
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20px;
 }
 
 p, h2, h3, #dontation .end {
