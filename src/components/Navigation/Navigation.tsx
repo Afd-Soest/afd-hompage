@@ -79,10 +79,10 @@ const Navigation = () => {
               <ul className="expended_ul">
                 <li>
                   <a
-                    href="https://www.afd.de/grundsatzprogramm/"
+                    href="https://www.afd.de/europa-neu-denken/"
                     target="_blank"
                   >
-                    Grundsatzprogramm
+                    Europawahlprogramm
                   </a>
                 </li>
                 <li>
@@ -100,10 +100,10 @@ const Navigation = () => {
                 </li>
                 <li>
                   <a
-                    href="https://www.afd.de/unser-land-zuerst/"
+                    href="https://www.afd.de/grundsatzprogramm/"
                     target="_blank"
                   >
-                    Unser Land zuerst
+                    Grundsatzprogramm
                   </a>
                 </li>
               </ul>

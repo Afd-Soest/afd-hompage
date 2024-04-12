@@ -13,7 +13,7 @@ beisitzer.push(
     "Jens Loewer",
     "Beisitzer im Kreisvorstand",
     "jens.loewer@afd-soest.de",
-    ["Mitglied des Kreistags", "Lehrer", "Wohnhaft in Ense", "55 Jahre alt"]
+    ["Mitglied des Kreistags", "Lehrer", "Wohnhaft in Ense", "1966 geboren"]
   )
 );
 
@@ -23,7 +23,7 @@ beisitzer.push(
     "Susanne Menke",
     "Beisitzerin im Kreisvorstand",
     "susanne.menke@afd-soest.de",
-    ["Heilpraktikerin", "Wohnhaft in Warstein", "53 Jahre alt"]
+    ["Heilpraktikerin", "Wohnhaft in Warstein", "1968 geboren"]
   )
 );
 
@@ -37,7 +37,7 @@ beisitzer.push(
       "Sachkundiger Bürger",
       "Kaufmännischer Angestellter",
       "Wohnhaft in Lippstadt",
-      "37 Jahre alt",
+      "1985 geboren",
     ]
   )
 );
@@ -48,7 +48,7 @@ beisitzer.push(
     "Dr. Wilfried Jacobi",
     "Beisitzer im Kreisvorstand",
     "wilfried.jacobi@afd-soest.de",
-    ["Chemiker im Ruhestand", "Wohnhaft in Bad Sassendorf", "79 Jahre alt"]
+    ["Chemiker im Ruhestand", "Wohnhaft in Bad Sassendorf", "1943 geboren"]
   )
 );
 
@@ -58,6 +58,6 @@ beisitzer.push(
     "Andreas Schacht",
     "Beisitzer im Kreisvorstand",
     "andreas.schacht@afd-soest.de",
-    ["Fachkraft für Lagerlogistik", "Wohnhaft in Lippstadt", "44 Jahre alt"]
+    ["Fachkraft für Lagerlogistik", "Wohnhaft in Lippstadt", "1978 geboren"]
   )
 );

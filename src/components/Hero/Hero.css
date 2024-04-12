@@ -103,6 +103,7 @@
     }
 }
 
+
 @media (max-width: 1700px)
 {
     #hero .contact {
@@ -126,6 +127,13 @@
 @media (max-width: 900px)
 {
     #hero .text > * {
+        display: none;
+    }
+}
+
+@media (max-height: 950px)
+{
+    #hero .contact {
         display: none;
     }
 }
