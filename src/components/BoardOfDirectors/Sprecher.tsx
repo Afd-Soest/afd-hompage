@@ -11,7 +11,7 @@ members.push(
     "Matthias Höing",
     "Sprecher des Kreisverbandes",
     "matthias.hoeing@afd-soest.de",
-    ["Kaufmännischer Angestellter", "Wohnhaft in Erwitte", "43 Jahre alt"]
+    ["Kaufmännischer Angestellter", "Wohnhaft in Erwitte", "1978 geboren"]
   )
 );
 members.push(
@@ -20,7 +20,7 @@ members.push(
     "Manuel Linnemann",
     "Stellvertretender Sprecher des Kreisverbandes",
     "manuel.linnemann@afd-soest.de",
-    ["Vermessungstechniker", "Wohnhaft in Lippetal", "25 Jahre alt"]
+    ["Vermessungstechniker", "Wohnhaft in Lippetal", "1997 geboren"]
   )
 );
 members.push(
@@ -33,7 +33,7 @@ members.push(
       "Mitglied des Rates der Stadt Lippstadt",
       "Dreher",
       "Wohnhaft in Lippstadt",
-      "37 Jahre alt",
+      "1984 geboren",
     ]
   )
 );
@@ -47,7 +47,7 @@ members.push(
       "Sachkundiger Bürger ",
       "Rechtsanwalt",
       "Wohnhaft in Lippstadt",
-      "53 Jahre alt",
+      "1968 geboren",
     ]
   )
 );

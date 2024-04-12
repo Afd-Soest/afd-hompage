@@ -88,6 +88,7 @@
 #vorstand .members .membersBx .content .role{
     font-size: 1.1em;
     position: relative;
+    width: 250px;
     top: -150px;
     color: var(--main-color);
 }
