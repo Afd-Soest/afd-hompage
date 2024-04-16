@@ -1,47 +1,79 @@
-import Picture1 from "../../assets/images/oldEvents/img1.jpg";
-import Picture2 from "../../assets/images/oldEvents/img2.jpg";
-import Picture3 from "../../assets/images/oldEvents/img3.jpg";
-import Picture4 from "../../assets/images/oldEvents/img4.jpg";
-import Picture5 from "../../assets/images/oldEvents/img5.jpg";
-import Picture6 from "../../assets/images/oldEvents/img6.jpg";
+import Picture1 from "../../assets/images/oldEvents/20240217_Infostand_Soest_(2).jpg";
+import Picture2 from "../../assets/images/oldEvents/20240217_Infostand_Soest.jpg";
+import Picture3 from "../../assets/images/oldEvents/20240224_Landesparteitag.jpg";
+import Picture4 from "../../assets/images/oldEvents/20240302_Kreisparteitag.jpg";
+import Picture5 from "../../assets/images/oldEvents/20240307_Helferich.jpg";
+import Picture6 from "../../assets/images/oldEvents/20240307_Tim.jpg";
+import Picture7 from "../../assets/images/oldEvents/20240316_Bezirksparteitag.jpg";
+import Picture8 from "../../assets/images/oldEvents/20240323_Espendiller.jpg";
+import Picture9 from "../../assets/images/oldEvents/20240323_Infostand_Werl.jpg";
+import Picture10 from "../../assets/images/oldEvents/20240215_Schmidt_Keuter.jpg";
 import { Event } from "./Event";
 
 export let events: Event[] = [];
 
 events.push(
-  new Event(Picture1, "31. März 2023", "Infoabend mit Guido Reil", [
-    "Am letzten Märztag besuchte Guido Reil Soest. Als Abgeordneter des Europäischen Parlamentes berichte er über seine Arbeit in Brüssel. Reil zeigte auch auf welch Absurditäten mittlerweile zur Normalität in der EU gehören und welche sinnfreien Prozesse unser Steuergeld verbrennen. Reil machte sehr deutlich, dass die EU in der jetzigen Form abgeschafft werden muss.",
+  new Event(
+    Picture8,
+    "23. März 2024",
+    "Infoabend mit Michael Espendiller MdB",
+    [
+      "Mit Dr. Michael Espendiller als Referent kam Ende März der fünfte Bundestagsabgeordnete in diesem Jahr zu uns nach Soest. Dr. Espendiller gab uns einen Einblick in seine Arbeit als Haushaltspolitiker der AfD und zeigte unteranderem auf wie viel Geld von unserer Regierung „verbrannt“ wird.",
+    ]
+  )
+);
+
+events.push(
+  new Event(Picture9, "23. März 2024", "Infostand in Werl", [
+    "Am vergangenen Samstag waren wir wieder in Werl vor Ort.",
+    "Trotz der sehr windigen Lage ist es uns gelungen viele unsere Mitbürger mit unseren Flyern zu versorgen",
   ])
 );
 
 events.push(
+  new Event(Picture7, "16. März 2024", "Bezirksparteitag", [
+    "Mitte März fand in Letmathe dann der Bezirksparteitag statt. Das Tagesprogramm sah die Neuwahl des Vorstandes, sowie die Neuwahl der Bundesdelegierten vor.",
+    "Bezirkssprecher blieb Christian Zaum (Siegen). Aus dem Kreisverband Soest zog Manuel Linnemann als Beisitzer in den Vorstand ein.",
+    "Auf der Bundesdelegierten-Liste fanden mit Dr. Wilfried Jacobi, Manuel Linnemann und Matthias Höing drei Soester einen Platz.",
+  ])
+);
+events.push(
   new Event(
-    Picture2,
-    "15. Oktober 2022",
-    "Die Junge Alternative wählt einen neuen Bundesvorstand",
+    Picture6,
+    "07. März 2024",
+    "Vortragsabend mit Matthias Helferich MdB und Tim Csehan",
     [
-      "Am 15. Oktober fand im thüringischen Apolda der elfte Bundeskongress der Jungen Alternative statt.",
-      "Grußworte an die Parteijugend richteten unter anderem Tino Chrupalla, Björn Höcke und ein Abgesandter der Freiheitlichen Jugend aus Österreich.",
-      "Höcke warb in seiner Rede dafür, sich als Jugend noch stärker in der Mutterpartei einzubringen und dieser ein wenig auf die Finger zu klopfen.",
-      "Im Laufe des Kongresses wählte die JA einen neuen Bundesvorstand und aktualisierte ihre Programmatischen Leitlinien.",
-      "Der neue Bundesvorsitzende ist der Oberfeldwebel und Bundestagsabgeordnete Hannes Gnauck aus Brandenburg. Aus Nordrhein-Westfalen ist Nils Hartwig als stellvertretender Bundesvorsitzer im Vorstand vertreten.",
+      "Anfang März folgte der nächste Infoabend. Diesmal besuchten uns Matthias Helferich MdB und Tim Csehan.",
+      "Helferich berichtete von seiner Arbeit als Abgeordneter in Berlin und referierte über die Migrationspolitik der Ampelregierung. Tim Csehan thematisierte das Konzept und das Vorgehen des sogenannten Verfassungsschutzes.",
     ]
   )
 );
 events.push(
-  new Event(Picture3, "23. Oktober 2022", "Infostand in Soest", [
-    "Am 23. Oktober besuchten wir mit unseren neuen Flyern den Soester Marktplatz mit einem Infostand, um über unser Programm gegen die Preissteigerungen zu informieren.",
-    "Hier führten wir einige interessante Gespräche und auch wenn das allgemeine Interesse noch gering ausfiel, bleiben als Fazit des Ganzen zwei wesentliche Dinge festzuhalten:",
-    "Die Hemmschwelle gegenüber unserer AfD sinkt weiter.",
-    "Wir sind die einzige Partei, die zurzeit auf der Straße für Bürger ansprechbar ist.",
-    "Im November wollten wir hieran anknüpfen. Zu unserem Bedauern erhielten wir keine Genehmigung, da die gesamte Fußgängerzone für den Weihnachtsmarkt geblockt ist.",
+  new Event(Picture4, "02. März 2024", "Kreisparteitag", [
+    "Heute war Kreisparteitag in Soest. Unter routinierter Leitung von Fabian Jacobi MdB wurden die Bezirks- und Landesdelegierten neugewählt.",
+    "Dank für Ihre Unterstützung gilt neben Fabian Jacobi auch unseren Gästen aus dem HSK und Freya Braun.",
   ])
 );
 events.push(
-  new Event(Picture4, "31. November 2022", "Kundgebung in Lippstadt", [
-    "Mit einer Kundgebung auf dem Lippstädter Rathausplatz schlossen wir diesen Monat ab.",
-    "Unsere Themenschwerpunkte waren auch hier unsere Lösungen für bezahlbare Energie und zur Eindämmung der Inflation. Nach der Eröffnung der Kundgebung, durch unseren Kreissprecher Matthias Höing, folgte ein guter Mix an Rednern aus unserem Kreisverband. Als Gastredner waren Günter Koch (Kreissprecher Paderborn) und unser Abgeordneter im Landtag Dr. Christian Blex vor Ort.",
-    "Gut 40 Interessenten und Parteifreunde folgten den verschiedenen Redebeiträgen. Besonders gefreut haben uns natürlich auch die Gegendemonstranten, die unsere Kundgebung verfolgt haben. Denn grade unseren roten Freunden, bringen wir gerne vernunftbasierte Politik nahe.",
-    "Spaß beiseite. Es ist wieder einmal bezeichnend, wenn die Linken Parteien gemeinsam auf die Straßen gehen und der Grund nicht die gestiegenen Preise sind, sondern unsere AfD. Das sind die Prioritäten. Hieran merkt man wieder einmal sehr deutlich, dass nur noch eine Partei für die Schwächsten in unserer Gesellschaft da ist - unsere Alternative für Deutschland!",
+  new Event(Picture3, "23. Februar 2024", "Landesparteitag", [
+    "Ende Februar stand der diesjährige Landesparteitag an. An den zwei Tagen standen, neben der Neuwahl des Landesvorstandes, noch einige Satzungsanträge auf der Tagesordnung. Landessprecher blieb Dr. Martin Vincentz. Unser Kreisverband war mit 10 Delegierten vor Ort.",
   ])
+);
+events.push(
+  new Event(Picture1, "17. Februar 2024", "Infostand in Soest", [
+    "Am vergangenen Samstag waren wir wieder in Soest vor Ort.",
+    "Gemeinsam mit der Jungen Alternative warben wir für unsere Positionen und informierten über Remigration im Sinne der AfD.",
+    "Eins bleibt festzuhalten; der Zuspruch hat durch die 'Demos gegen Rechts' nicht abgenommen!",
+  ])
+);
+events.push(
+  new Event(
+    Picture10,
+    "15. Februar 2024",
+    "Vortragsabend mit Eugen Schmidt MdB und Stefan Keuter MdB",
+    [
+      "Mitte Februar starteten wir mit einem Vortragsabend in das neue Jahr. Zu Besuch waren die beiden Bundestagsabgeordneten Eugen Schmidt und Stefan Keuter.",
+      "Schmidt referierte über den Anschlag auf die Nordstream-Pipeline und Keuter berichtete aus dem Untersuchungsausschuss zu Afghanistan.",
+    ]
+  )
 );
