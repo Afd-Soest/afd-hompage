@@ -26,7 +26,7 @@ events.push(
 events.push(
   new Event(Picture9, "23. März 2024", "Infostand in Werl", [
     "Am vergangenen Samstag waren wir wieder in Werl vor Ort.",
-    "Trotz der sehr windigen Lage ist es uns gelungen viele unsere Mitbürger mit unseren Flyern zu versorgen",
+    "Trotz der sehr windigen Lage ist es uns gelungen viele unsere Mitbürger mit unseren Flyern zu versorgen.",
   ])
 );
 
