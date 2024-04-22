@@ -24,5 +24,4 @@ events.push(new Event(Picture2));
 events.push(new Event(Picture3));
 events.push(new Event(Picture4)); */
 
-events.push(new Event(Picture6));
 events.push(new Event(Picture5));
