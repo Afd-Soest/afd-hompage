@@ -20,7 +20,7 @@ function App() {
             <Route path="satzung" element={<Constituion />} />
             <Route path="spenden" element={<Donate />} />
             <Route path="impressum" element={<Impressum />} />
-            <Route path="datenschutzerklaerung" element={<DataProtection />} />
+            <Route path="datenschutzerklärung" element={<DataProtection />} />
             <Route path="kontakt" element={<Contact />} />
             <Route path="vorstand" element={<Vorstand />} />
           </Route>
