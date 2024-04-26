@@ -52,7 +52,7 @@ const Footer = () => {
               </li>
               |
               <li>
-                <Link to="/datenschutzerklaerung">Datenschutzerklärung</Link>
+                <Link to="/datenschutzerklärung">Datenschutzerklärung</Link>
               </li>
             </ul>
           </div>
