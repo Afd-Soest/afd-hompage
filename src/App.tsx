@@ -22,7 +22,7 @@ function App() {
             <Route path="impressum" element={<Impressum />} />
             <Route path="datenschutzerklärung" element={<DataProtection />} />
             <Route path="kontakt" element={<Contact />} />
-            <Route path="vorstand" element={<Vorstand />} />
+            <Route path="unser-vorstand" element={<Vorstand />} />
           </Route>
         </Routes>
       </BrowserRouter>
