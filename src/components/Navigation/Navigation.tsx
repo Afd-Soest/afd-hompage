@@ -35,9 +35,9 @@ const Navigation = () => {
                 </div>
               </label>
               <ul className="expended_ul">
-                <li onClick={() => changeSelectedIndex(100)}>
+                {/* <li onClick={() => changeSelectedIndex(100)}>
                   <Link to="/unser-vorstand">Unser Vorstand</Link>
-                </li>
+                </li> */}
                 <li onClick={() => changeSelectedIndex(100)}>
                   <Link to="/satzung">Satzung</Link>
                 </li>
