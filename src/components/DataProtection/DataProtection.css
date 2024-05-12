@@ -41,3 +41,26 @@ p, h2, a, li {
 #data a:hover{
     color: var(--sec-color);
 }
+
+@media (max-width: 1200px) {
+
+    #data {
+        width: 80%;
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 900px) {
+
+    #data {
+        width: 85%;
+        margin-left: 50px;
+    }
+
+    #data h2{
+        font-size: 1.8em;
+    }
+    #data p{
+        font-size: 0.9em;
+    }
+}
