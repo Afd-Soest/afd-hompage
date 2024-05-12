@@ -40,3 +40,26 @@ p, h2, a, li {
 #impressum a:hover{
     color: var(--sec-color); 
 }
+
+@media (max-width: 1200px) {
+
+    #impressum {
+        width: 80%;
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 900px) {
+
+    #impressum {
+        width: 85%;
+        margin-left: 50px;
+    }
+
+    #impressum h2{
+        font-size: 1.6em;
+    }
+    #impressum p{
+        font-size: 0.9em;
+    }
+}

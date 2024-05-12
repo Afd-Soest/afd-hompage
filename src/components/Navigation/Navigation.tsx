@@ -35,10 +35,15 @@ const Navigation = () => {
                 </div>
               </label>
               <ul className="expended_ul">
-                <li onClick={() => changeSelectedIndex(100)}>
+                {/* <li onClick={() => changeSelectedIndex(100)}>
                   <Link to="/unser-vorstand">Unser Vorstand</Link>
-                </li>
-                <li onClick={() => changeSelectedIndex(100)}>
+                </li> */}
+                <li
+                  onClick={() => {
+                    changeSelectedIndex(100);
+                    setIsNavOpen(!isNavOpen);
+                  }}
+                >
                   <Link to="/satzung">Satzung</Link>
                 </li>
                 <li>
@@ -60,7 +65,9 @@ const Navigation = () => {
             </li>
             <li
               className={selectedIndex === 1 ? "active" : ""}
-              onClick={() => changeSelectedIndex(1)}
+              onClick={() => {
+                changeSelectedIndex(1);
+              }}
             >
               <input type="checkbox" id="checkbox_program"></input>
               <label htmlFor="checkbox_program">
@@ -118,7 +125,10 @@ const Navigation = () => {
             </li>
             <li
               className={selectedIndex === 2 ? "active" : ""}
-              onClick={() => changeSelectedIndex(2)}
+              onClick={() => {
+                changeSelectedIndex(2);
+                setIsNavOpen(!isNavOpen);
+              }}
             >
               <Link to="/spenden">Spenden</Link>
             </li>

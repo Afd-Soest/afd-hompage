@@ -42,3 +42,19 @@ p, h2, h3, #dontation .end {
     padding-bottom: 30px;
     font-size: 1.6em;
 }
+
+@media (max-width: 1200px) {
+
+    #dontation {
+        width: 80%;
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 900px) {
+
+    #dontation {
+        width: 85%;
+        margin-left: 50px;
+    }
+}

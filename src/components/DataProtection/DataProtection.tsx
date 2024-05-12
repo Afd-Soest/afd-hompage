@@ -708,7 +708,7 @@ const DataProtection = () => {
             href="https://www.facebook.com/business/help/651294705016616"
             target="_blank"
           >
-            https://www.facebook.com/business/help/651294705016616
+            https://www.facebook.com/business/help
           </a>
           .
         </p>
@@ -822,7 +822,7 @@ const DataProtection = () => {
             href="https://www.facebook.com/legal/terms/information_about_page_insights_data"
             target="_blank"
           >
-            https://www.facebook.com/legal/terms/information_about_page_insights_data
+            https://www.facebook.com/legal/terms
           </a>
           , Opt-Out:{" "}
           <a href="https://www.facebook.com/settings?tab=ads" target="_blank">
