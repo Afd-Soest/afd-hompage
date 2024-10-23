@@ -1,0 +1,98 @@
+#JA{
+    position: flex;
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    background: #fff;
+    min-height: var(--min-height);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+}
+
+#JA .title { grid-area: title}
+#JA .person { grid-area: person}
+#JA .info { grid-area: info}
+#JA .contact { grid-area: contact}
+#JA .links { grid-area: links}
+#JA .membership { grid-area: membership}
+#JA .verband { grid-area: verband}
+
+#JA h2{
+    font-size: 48px;
+    text-align: center;
+}
+#JA .info{
+    display: grid;
+    grid-template-areas: 'person contact';
+    gap: 50px;
+    height: 700px;
+    border: 5px solid black;
+}
+
+#JA .info .contact{
+    display:flex;
+    flex-direction: column;
+    height: 100%;
+}
+#JA .info .contact .qr-code {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    height: 40%;
+}
+#JA .info .contact .qr-code img{
+    height: 50%;
+}
+
+#JA .info .person{
+    display:flex;
+    flex-direction: column;
+}
+
+#JA .info .person img{
+    height: 500px;
+}
+
+
+#JA label {
+    font-size: 24px;
+}
+
+#JA .links {
+    max-width: 10%;
+    border: 5px solid black;
+}
+
+#JA .links a{
+    text-decoration: none;
+    color: var(--default-font-color);
+}
+
+#JA .links .membership,
+#JA .links .verband button{
+    font-family: 'Bitter', serif;
+    font-size: 1.4em;
+    height: 70px;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 20px;
+    background: var(--third-color);
+    color: var(--default-font-color);
+}
+
+#JA .links .membership{
+    /*width: 500px;*/ 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#JA .links .verband button{
+    width: 500px;
+    
+}
+
+#JA .links .verband{
+    width: 100%;
+    display: flex;
+}

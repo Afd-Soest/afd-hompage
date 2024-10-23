@@ -8,9 +8,29 @@ import Picture7 from "../../assets/images/oldEvents/20240316_Bezirksparteitag.jp
 import Picture8 from "../../assets/images/oldEvents/20240323_Espendiller.jpg";
 import Picture9 from "../../assets/images/oldEvents/20240323_Infostand_Werl.jpg";
 import Picture10 from "../../assets/images/oldEvents/20240215_Schmidt_Keuter.jpg";
+import Picture11 from "../../assets/images/oldEvents/20240914_Vortragsabend.jpg";
+import Picture12 from "../../assets/images/oldEvents/20241019_Infostand_Werl.jpg";
 import { Event } from "./Event";
 
 export let events: Event[] = [];
+
+events.push(
+  new Event(Picture12, "19. Oktober 2024", "Infostand im Werl", [
+    "In Werl zeigte sich bei guter Resonanz und vielen Gesprächen deutlich der Wunsch nach einem Politikwechsel - der Wunsch nach einer starken AfD!",
+  ])
+);
+
+events.push(
+  new Event(
+    Picture11,
+    "14. September 2024",
+    "Vortragsabend mit Kevin Michalzik, Patrick Heinz, Dominik Asch und Dietrich Wiens",
+    [
+      "Mit Vorträgen von Kevin Michalzik, Patrick Heinz, Dominik Asch und Dietrich Wiens konnten wir unseren Wissensstand in verschiedenen politischen Themenbereichen ausbauen.",
+      "So erhielten wir tiefe Einblicke in die Parteiengeschichte Deutschlands, die Grundpfeiler der Metapolitik und erfuhren mehr über die Arbeit der Jungen Alternative und der Russlanddeutschen in der AfD.",
+    ]
+  )
+);
 
 events.push(
   new Event(
