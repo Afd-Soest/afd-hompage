@@ -115,7 +115,7 @@ const Navigation = () => {
                 </li>
               </ul>
             </li>
-            <li>
+            <li value="3">
               {/* className={selectedIndex === 3 ? "active" : ""}
               onClick={() => {
                 changeSelectedIndex(3);
