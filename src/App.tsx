@@ -7,6 +7,7 @@ import Layout from "./components/Pages/Layout";
 import DataProtection from "./components/DataProtection/DataProtection";
 import Contact from "./components/Contact/Contact";
 import Vorstand from "./components/BoardOfDirectors/Vorstand";
+import JungeAlternative from "./components/JungeAlternative/JungeAlternative";
 import PastEventsComplete from "./components/PastEventsComplete/PastEventsComplete";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
             <Route path="impressum" element={<Impressum />} />
             <Route path="datenschutzerklärung" element={<DataProtection />} />
             <Route path="kontakt" element={<Contact />} />
+            <Route path="ja" element={<JungeAlternative />} />
             {/* <Route path="unser-vorstand" element={<Vorstand />} /> */}
           </Route>
         </Routes>

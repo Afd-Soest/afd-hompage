@@ -115,11 +115,15 @@ const Navigation = () => {
                 </li>
               </ul>
             </li>
-            <li value="3">
-              <a
-                href="https://www.jungealternative-arnsberg.de/"
-                target="_blank"
-              >
+            <li>
+              {/* className={selectedIndex === 3 ? "active" : ""}
+              onClick={() => {
+                changeSelectedIndex(3);
+                setIsNavOpen(!isNavOpen);
+              }}
+              > 
+              <Link to="/ja">Junge Alternative</Link> */}
+              <a href="https://www.ja-suedwestfalen-ruhr.de/" target="_blank">
                 Junge Alternative
               </a>
             </li>
