@@ -48,7 +48,7 @@ const Footer = () => {
               </li>
               |
               <li>
-                <Link to="/impressum">Impressung</Link>
+                <Link to="/impressum">Impressum</Link>
               </li>
               |
               <li>
