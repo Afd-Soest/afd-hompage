@@ -4,6 +4,7 @@ import Picture3 from "../../assets/images/oldEvents/(2023_05_16) Stammtisch - Li
 import Picture4 from "../../assets/images/oldEvents/Kachel Renner.jpg";
 import Picture5 from "../../assets/images/oldEvents/02-05-2024.webp";
 import Picture6 from "../../assets/images/oldEvents/18-04-2024.webp";
+import Picture7 from "../../assets/images/oldEvents/20241122_InfoAbend.jpg";
 
 class Event {
   private picture: string;
@@ -24,4 +25,4 @@ events.push(new Event(Picture2));
 events.push(new Event(Picture3));
 events.push(new Event(Picture4)); */
 
-events.push(new Event(Picture5));
+events.push(new Event(Picture7));
