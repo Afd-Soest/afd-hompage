@@ -9,8 +9,8 @@ const MainPage = () => {
     <>
       <Hero />
       <Divider />
-      <UpcomingEvents />
-      <Divider />
+      {/* <UpcomingEvents />
+      <Divider /> */}
       <PastEvents />
       <Divider />
       <AboutUs />

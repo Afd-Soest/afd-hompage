@@ -10,9 +10,31 @@ import Picture9 from "../../assets/images/oldEvents/20240323_Infostand_Werl.jpg"
 import Picture10 from "../../assets/images/oldEvents/20240215_Schmidt_Keuter.jpg";
 import Picture11 from "../../assets/images/oldEvents/20240914_Vortragsabend.jpg";
 import Picture12 from "../../assets/images/oldEvents/20241019_Infostand_Werl.jpg";
+import Picture13 from "../../assets/images/oldEvents/20241122_InfoAbend_Boßdorf.jpg";
+import Picture14 from "../../assets/images/oldEvents/05012025_Direktkandidat.jpg";
 import { Event } from "./Event";
 
 export let events: Event[] = [];
+
+events.push(
+  new Event(Picture14, "01. Januar 2025", "Direktkandidat in Soest", [
+    "Unser Direktkandidat Ulrich von Zons wurde auf Listenplatz 21 bei der Landeswahlversammlung in Marl gewählt!",
+    "Mit Ulrich von Zons wird unsere Landesliste somit um einen starken Kandidaten ergänzt, der bereits in unserem Kreisverband überzeugen konnte.",
+    "Als Vater eines Sohnes liegt ihm besonders viel an der Zukunft dieses Landes, daher legt er einen großen Fokus auf die innere Sicherheit und auf die soziale Gerechtigkeit.",
+    "",
+    "Wir sind unglaublich stolz, dass Ulrich von Zons unseren Wahlkreis nun auch auf der Landesliste vertritt und sind voller Vorfreude auf den kommenden Wahlkampf!",
+  ])
+);
+
+events.push(
+  new Event(Picture13, "22. November 2024", "Infoabend in Soest", [
+    "Am Abend des 22.November veranstaltete der AfD-Kreisverband Soest einen Informationsabend mit MdEP Irmhild Boßdorf für Mitglieder und Interessierte. In ihrem spannenden Vortrag berichtete sie von ihren Erlebnissen in Brüssel und gab einen eindrucksvollen Überblick über die Arbeitsweise des Europäischen Parlaments.",
+    "",
+    "Der gelungene Abend entwickelte sich nach dem informativen Vortrag zu einer lebhaften und interessanten Frage-und-Antwort-Runde, bei der viele spannende Einblicke gewonnen werden konnten.",
+    "",
+    "Wir als Kreisverband Soest der Alternative für Deutschland danken Frau Boßdorf herzlich für ihren faszinierenden und aufschlussreichen Bericht aus Brüssel.",
+  ])
+);
 
 events.push(
   new Event(Picture12, "19. Oktober 2024", "Infostand im Werl", [
@@ -32,7 +54,7 @@ events.push(
   )
 );
 
-events.push(
+/* events.push(
   new Event(
     Picture8,
     "23. März 2024",
@@ -96,4 +118,4 @@ events.push(
       "Schmidt referierte über den Anschlag auf die Nordstream-Pipeline und Keuter berichtete aus dem Untersuchungsausschuss zu Afghanistan.",
     ]
   )
-);
+); */
